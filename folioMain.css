@@ -8,8 +8,9 @@
 }
 
 body{
-    background-color: #323252;
+    /* background-color: #323252; */
     font-family: "Poppins";
+    
 }
 
 .flex_center {
@@ -26,11 +27,7 @@ body{
     display: flex;
     height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(rgba(0, 0, 0,.2),rgba(0, 0, 0, .8)),url(./keyboards.jpg);
-    background-size: cover;
-    background-blend-mode: darken;
-    /* background-position: 100% 30%; */
-    background-attachment: fixed;
+    background-color: rgb(255, 252, 249);
 }
 
 .left-container {
@@ -59,7 +56,7 @@ body{
 
 .link {
     display: flex;
-    color: #944dffc7;
+    color: rgb(0, 16, 11);
     padding: 1vw;
     text-decoration: none;
     text-align: center;
@@ -68,9 +65,7 @@ body{
 }
 
 .link:hover {
-    color: white;
     border: .2vw solid #944dffc7;
-    /* box-shadow: 1px 1px 1px 1px #06e530; */
     box-shadow: 2px 2px 2px 2px #944dffc7;
 }
 
@@ -112,7 +107,7 @@ body{
     border: 2px solid #944dffc7;
     /* background-color: #06e530; */
     background: transparent;
-    color: white;
+    color: rgb(0, 16, 11);
     width: 20%;
     height: 8vh;
     backdrop-filter: blur(5px);
@@ -121,7 +116,6 @@ body{
 
 .core button:hover {
     border: 2px solid white;
-    color: #944dffc7;
     box-shadow: 2px 2px 2px 2px #944dffc7;
 }
 
@@ -138,21 +132,21 @@ body{
 }
 
 .greet {
-    color: white;
+    color: rgb(0, 16, 11);
 }
 
 .intro{
-    color: white;
+    color: rgb(0, 16, 11);
 }
 
 .hob {
-    color: white;
+    color: rgb(0, 16, 11);
 }
 
 /* All circle start */
 
 .oval {
-    background-color: white;
+    background-color: rgb(206, 255, 26);
 }
 
 /* left side circle start */
@@ -233,9 +227,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0,.2), rgba(88, 78, 78,.5)), url(./mkpsd.png);
+    background-image: linear-gradient(rgba(0, 0, 0,.2), rgba(88, 78, 78,.5)), url(./Planet\ Arcadia.png);
     background-size: cover;
-    background-blend-mode: darken;
+    /* background-blend-mode: darken; */
     background-attachment: fixed;
 }
 
@@ -313,7 +307,7 @@ body{
 /* top circle */
 
 .top-circle {
-    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(128, 0, 255, 0.7));
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(206, 255, 26, 0.7));
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
